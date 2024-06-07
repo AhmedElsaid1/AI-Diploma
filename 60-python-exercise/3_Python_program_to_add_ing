@@ -1,0 +1,9 @@
+
+string =input("inter your string : ")
+
+if len(string)<3:
+    print(string)
+elif string[-3: ]=="ing" : # elif string.endswith("ing"): 
+    print(string[0:-3]+"ly")
+else :print( string +"ing")
+    
