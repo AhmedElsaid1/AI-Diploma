@@ -1,0 +1,8 @@
+sentence = "my name is Ahmed, my age is 24, my salary is 2345675463524354635241"
+words = sentence.split()
+
+for word in words:
+    print(word, sentence.count(word))
+    words = set(words)
+for word in words:
+    print(word, sentence.count(word))
