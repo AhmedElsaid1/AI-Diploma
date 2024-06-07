@@ -1,0 +1,11 @@
+def ReturnMax (words):
+    LongestWord=""
+    MaxLen=0
+    for word in words :
+        if len(word)>MaxLen:
+            LongestWord=word
+            MaxLen=len(word)
+    return LongestWord , MaxLen  
+
+words = ["Ahmed", "Ali", "Essam", "Abd El Rahman", "AbdAllah"]          
+print(ReturnMax(words))
