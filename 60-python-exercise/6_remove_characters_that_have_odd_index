@@ -1,0 +1,9 @@
+string = "0123456789"
+#print(string[::2])
+for index in string:
+    if int(index) % 2 == 0:
+        print(index)
+    else:
+        pass
+
+
