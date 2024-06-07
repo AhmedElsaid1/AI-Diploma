@@ -1,0 +1,7 @@
+string = input()
+print(len(string))
+
+counter = 0 
+for ch in string:
+    counter += 1 
+print(counter)
