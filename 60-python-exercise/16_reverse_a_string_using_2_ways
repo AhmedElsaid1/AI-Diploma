@@ -1,0 +1,7 @@
+# the first way
+string = input("enter any string : ")
+print(string[::-1])
+
+#the second way 
+for i in range(len(string)-1, -1, -1):
+    print(string[i], end = "")
