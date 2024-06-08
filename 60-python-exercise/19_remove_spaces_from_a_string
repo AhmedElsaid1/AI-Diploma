@@ -1,0 +1,13 @@
+string =input("enter your string ")
+
+for i in string:
+    if i != " ":
+        print(i,end="")
+    else:pass 
+    
+
+
+
+
+
+
