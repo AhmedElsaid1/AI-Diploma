@@ -1,0 +1,25 @@
+#the first way
+
+my_list  = [ 2,3,4,5,6]
+my_list .clear()
+
+
+
+#the second way
+my_list = [1, 2, 3, 4, 5]
+
+my_list = []
+
+if not my_list:
+  print("The list is now empty.")
+
+#the third way
+my_list = [1, 2, 3, 4, 5]
+  
+del my_list[:]
+
+
+if not my_list:
+  print("The list is now empty.")
+  
+
