@@ -1,0 +1,5 @@
+number = float(input(" enter the numper : "))
+if number > 0:
+    print("+", round(number, 2))
+else:
+    print(round(number, 2))
