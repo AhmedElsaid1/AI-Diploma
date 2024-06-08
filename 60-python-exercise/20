@@ -1,4 +1,0 @@
-string = input("enter your string : ")
-numberofsubstrings = (len(string) * (len(string) + 1) )/ 2
-print(numberofsubstrings)
-
