@@ -1,0 +1,3 @@
+numper = float(input("enter the numper"))
+print(round(numper, 2))
+
